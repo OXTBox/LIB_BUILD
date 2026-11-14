@@ -1,0 +1,17 @@
+# LIB_BUILD parts: what the portable demo needs. One per line: SOURCE <tab> DESTINATION (both
+# folders or files). SOURCE is relative to ~/projects unless it starts with a drive (C:/...).
+# DESTINATION is relative to the demo folder; the layout under projects/ is kept, because the
+# games and benches find their libraries by searching the folders above themselves.
+Vibecode3D/standalone/VibeCode3D	projects/Vibecode3D/standalone/VibeCode3D
+xt3D_Raylib_Livecode_Bridge/standalone	projects/xt3D_Raylib_Livecode_Bridge/standalone
+xt3D_Raylib_Livecode_Bridge/testbench	projects/xt3D_Raylib_Livecode_Bridge/testbench
+LIB_GAMES/Vibecode3D_Games	projects/LIB_GAMES/Vibecode3D_Games
+LIB_MCP/livecode	projects/LIB_MCP/livecode
+LIB_MCP/assets	projects/LIB_MCP/assets
+LIB_MAP/livecode	projects/LIB_MAP/livecode
+LIB_BIT/livecode	projects/LIB_BIT/livecode
+LIB_MOCAP/library	projects/LIB_MOCAP/library
+LIB_GENERICA/sets	projects/LIB_GENERICA/sets
+LIB_GENERICA/livecode	projects/LIB_GENERICA/livecode
+LIB_TEST/README.md	projects/LIB_TEST/README.md
+C:/xt3d/extension	xt3d/extension
