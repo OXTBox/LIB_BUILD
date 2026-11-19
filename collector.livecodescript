@@ -20,6 +20,7 @@ on preOpenStack
    put item 1 to -2 of tPath into sHere
    put item 1 to -3 of tPath into sProjects
    set the title of me to "FOR OWNER | LIB_BUILD: press Collect, choose an empty folder"
+   dispatch "Users.TitleStack" with the short name of me, "LIB_BUILD: press Collect, choose an empty folder", "FOR"   -- LIB_USERS words it, when in use
    set the rect of me to 100, 100, 760, 420
    if there is not a button "Collect" then
       create button "Collect"
