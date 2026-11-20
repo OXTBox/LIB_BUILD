@@ -14,3 +14,7 @@ folder you can carry to another Windows computer.
 
 Tested 2026-11-13: 3,146 files, 311 MB into `C:\LIB_DEMO` (most of it LIB_MOCAP's library).
 Not yet tested: running the collected copy on a second computer.
+
+## Licence
+
+GPL-3.0 (see `LICENSE`), because the xTalk work here is built on the GPL-licensed LiveCode Community 9 engine. Copyright (c) 2026 xAction.
